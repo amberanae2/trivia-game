@@ -2,11 +2,142 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivia Game</title>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
+	
+	</head>
+	<body>
+      <header>
+      <div class="masthead">
+          <div class="container">
+      
+        <h1 class = "logo">90's Trivia</h1>
+  
+        <button id = "start_button">Start</button>
+      </div>
+    </header>
+      <div id="main-container" class="container">
+          <section class="main-section">
+  
+         <h1 id = "timer_line">Time Remaining: <span id = "timer_number">30 Seconds</span></h1>
+  
+        <h2>1. What was the Name of the Pink Morphin Power Ranger?</h2>
+       
+          <input type="radio" name="q1" value="Katie">Katie 
+          <input type="radio" name="q1" value="Kimberly">Kimberly
+          <input type="radio" name="q1" value="Kyla">Kyla
+          <input type="radio" name="q1" value="Kory">Kory
+          
+  
+        <h2>2. In the title "Beverly Hills 90210",90210 refers to what?</h2>
+        
+          <input type="radio" name="q2" value="Zip Code">Zip Code
+          <input type="radio" name="q2" value="Brandons House Number">House Number
+          <input type="radio" name="q2" value="Upper East Side">Eastside
+          <input type="radio" name="q2" value= "Tori Spelling's clothing allowance">Clothing 
+  
+  
+  
+        <h2>3.What popular sitcom, featuring Monica,Rachel,Joey,Ross,and others debuted in 1994? </h2>
+        
+          <input type="radio" name="q3" value="Beverly Hills 90210">BeverlyHills
+          <input type="radio" name="q3" value="Frasier">Frasier
+          <input type="radio" name="q3" value="Friends">Friends
+          <input type="radio" name="q3" value="Seinfield">Seinfield
+
+  
+  
+        <h2>4.Steve Urkel,was the quinessential nerd in what sitcom?</h2>
+        
+          <input type="radio" name="q4" value= "Family Matters">Family Matters
+          <input type="radio" name="q4" value="Saved by the Bell">Saved by the Bell
+          <input type="radio" name="q4" value="Seinfield">Seinfield
+          <input type="radio" name="q4" value="Friends">Friends
+         
+  
+  
+        <h2>5.Britney Spears' first song was? </h2>
+       
+          <input type="radio" name="q5" value="Baby One more time">Baby One More Time
+          <input type="radio" name="q5" value="You drive me crazy">Crazy
+          <input type="radio" name="q5" value="Sometimes">Sometimes
+          <input type="radio" name="q5" value= value="Toxic">Toxic
+         
+        
+        <h2>6.Who wrote the book series"Goosebumps? </h2>
+
+          <input type="radio" name="q6" value= "Lois Lowry">Lois Lowry
+          <input type="radio" name="q6" value="R.L Stine">RL Stine
+          <input type="radio" name="q6" value= "Dav Pilkey">Dave Pilkey
+          <input type="radio" name="q6" value="James Avery">James Avery
+          
+  
+        <h2>7.What was the boy's name in Pokemon? </h2>
+      
+          <input type="radio" name="q7" value= "Onix">Onix
+          <input type="radio" name="q7" value= "Ash">Ash
+          <input type="radio" name="q7" value="Poli">Poli
+          <input type="radio" name="q7" value="Kai">Kai
+  
+        <h2>8."Jagged Little Pill",is the album by which singer? </h2>
+        
+          <input type="radio" name="q8" value="Christina Aguilera">Christina Aguilera
+          <input type="radio" name="q8" value="Mariah Carey">Mariah Carey
+          <input type="radio" name="q8" value= "Whitney Houston">Whitney Houston
+          <input type="radio" name="q8" value= "Alanis Morissette">Alanis Morissette
+
+  
+        <h2>9."White Mystery" was a flavor of which candy?</h2>
+     
+          <input type="radio" name="q9" value="Dum Dums">DumDums
+          <input type="radio" name="q9" value="Airheads">airheads
+          <input type="radio" name="q9" value="Laffy Taffy">laffy taffy
+          <input type="radio" name="q9" value="Warheads">warheads
+
+  
+        <h2>10.Which of the following was NOT a player in Super Mario Cart? </h2>
+        
+          <input type="radio" name="q10" value="Crash">Crash
+          <input type="radio" name="q10" value="Luigi">Luigi
+          <input type="radio" name="q10" value="Princess Peach">PrincessPeach
+          <input type="radio" name="q10" value="Toad">Toad
+  
+  
+          <br>
+  
+  
+        <button id = done_button>Done!</button>
+  
+      </div>
+  
+  
+  
+  
+   
+      <div id = "end-container">
+
+       
+  
+        <h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+        <h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+        <h1>Unanswered: <span id = "unanswered">0</span></h1>
+      </div>
+        
+  
+  
+
+   
+
     
+
+
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+ <script src = "assets/javascript/app.js"></script>
 </body>
 </html>
