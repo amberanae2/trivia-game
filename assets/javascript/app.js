@@ -4,14 +4,10 @@
  var count = 30;
 
 
-// Count of Right, Wrong, and unanswered Qustions
 var correctCount = 0;
 var wrongCount = 0;
 var unansweredCount = 0;
 
-
-
-// ------------------------ Game Functions are below ------------------------
 $(document).ready(function(){
 
 	
